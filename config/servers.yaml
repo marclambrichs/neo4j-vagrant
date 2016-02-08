@@ -1,0 +1,9 @@
+---
+- name: neo4j
+  hostname: neo4j.arthurjames.vagrant
+  box: vagrant-debian-wheezy
+  ram: 2048
+  ip: 10.0.11.8
+  ports:
+    - guest: 7474
+      host: 7474
